@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" Defines the database storage """
+""" Defines the database storage
+"""
 from os import getenv
 import models
 from models.base_model import BaseModel, Base

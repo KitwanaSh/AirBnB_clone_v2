@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-This is the main file storage for the clone
+""" This is the main file storage for the clone
 """
 import json
 from models.amenity import Amenity
@@ -13,7 +12,8 @@ from models.user import User
 
 
 class FileStorage:
-    """This class manages storage of hbnb models in JSON format"""
+    """This class manages storage of hbnb models in JSON format
+    """
     __file_path = 'file.json'
     __objects = {}
     clsdict = {"Amenity": Amenity, "BaseModel": BaseModel, "City": City,
